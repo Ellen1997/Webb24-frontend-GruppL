@@ -44,3 +44,13 @@
     text-decoration: overline;
   }
 
+  .header input {
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+
+  .header input::placeholder {
+    color: black;
+    font-weight: bold;
+  }
+

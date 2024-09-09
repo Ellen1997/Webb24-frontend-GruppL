@@ -2,23 +2,79 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+section {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 a {
+    color: black !important;
+    text-decoration: none;
+}
+
+h1 a:active {
+    color: black;
+}
+
+h1 a:hover {
+    color: black;
+}
+
+h1 a:visited {
+    color: black;
+}
+
 header {
     background-color: lightgrey;
 }
 
 form {
-    display: flexbox;
-    margin: 0,5row;
-    padding: 05row;
-    
+    display: flex;
+    margin: 0.5row;
+    padding: 0.5row; 
 }
 
-h1 {
-    color: black;
+input[type="text"] {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-h1:active {
-    color: blue;
+input[type="text"]:hover {
+    background-color: lightgrey;
+}
+
+input[type="email"] {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="email"]:hover {
+    background-color: lightgray;
+}
+
+input[type="password"] {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="password"]:hover {
+    background-color: lightgray;
 }
 
 footer {

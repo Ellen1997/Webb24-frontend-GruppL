@@ -24,6 +24,7 @@ nav {
     background-color: #f3f3f3;
     padding: 20px; 
     border-right: 2px solid #ccc;
+    /* justify-content: center; */
 }
 
 main {

@@ -41,13 +41,6 @@ section {
     width: 80%;
 }
 
-/* .formulär {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    width: 100%;
-} */
-
 .container {
     display: flex;
     /* justify-content: center; */
@@ -67,11 +60,6 @@ form {
 }
 
 .new {
-    width: 300px;
-    padding: 20px;
-}
-
-.existing {
     width: 300px;
     padding: 20px;
 }

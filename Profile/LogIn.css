@@ -41,17 +41,9 @@ section {
     width: 80%;
 }
 
-/* .formulär {
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    width: 100%;
-} */
-
 .container {
     display: flex;
-    /* justify-content: center; */
-    align-items: flex-start;
+    align-items: flex-end;
     flex-direction: row;
     width: 100%;
     box-sizing: border-box;
@@ -64,11 +56,6 @@ form {
     padding: 20px; 
     box-shadow: 0 2px 4px;
     width: 100%;
-}
-
-.new {
-    width: 300px;
-    padding: 20px;
 }
 
 .existing {
@@ -185,6 +172,7 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
  a {
     color: black;
 }

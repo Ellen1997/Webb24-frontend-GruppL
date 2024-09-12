@@ -3,3 +3,10 @@ färgschema: vit bakgrund, svart text, ljusgrå header/footer. hover: ljusblå a
 Ellen: Första sidan, info, css
 Sandra: profile, css
 Phlip: explore, css
+
+sidebar färger: 
+ .sidebar {
+        background-color: #f3f3f3;
+        padding: 20px;
+        border-right: 2px solid #ccc;
+    }

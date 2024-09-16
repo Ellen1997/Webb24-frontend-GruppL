@@ -24,7 +24,6 @@ nav {
     background-color: #f3f3f3;
     padding: 20px; 
     border-right: 2px solid #ccc;
-    /* justify-content: center; */
 }
 
 main {
@@ -56,6 +55,10 @@ form {
     flex-direction: column;
     padding: 20px; 
     box-shadow: 0 2px 4px;
+    width: 100%;
+}
+
+.existing {
     width: 300px;
     padding: 20px;
 }

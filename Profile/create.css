@@ -73,10 +73,6 @@ section {
     .notes {
         margin-left: 2rem; 
     }
-
-    .image-slider {
-        height: 400px; 
-    }
 }
 
 .formulär {
@@ -184,6 +180,12 @@ select:hover {
 
 #mobile {
     width: 150px;
+}
+
+.image-slider {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
 }
 
 .image-slider img {

@@ -23,7 +23,13 @@ nav {
     flex-direction: column;
     background-color: #f3f3f3;
     padding: 20px; 
+    margin: 15px;
     border-right: 2px solid #ccc;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
 }
 
 main {

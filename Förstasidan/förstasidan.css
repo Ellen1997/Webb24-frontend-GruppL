@@ -146,3 +146,18 @@ footer p {
     color: #888;
     font-size: 14px;
 }
+
+@media(min-width: 1024px) {
+    .container {
+        flex-direction: row;
+    }
+    .sidobar {
+        width: 150px;
+        height: auto;
+    }
+    .content {
+        flex: 1;
+        padding: 40px;
+    }
+
+}
